@@ -1,4 +1,4 @@
-# odin-landing-page
+# Bonjourvi Landing Page
 
 Landing page for "The Odin Project"
 
