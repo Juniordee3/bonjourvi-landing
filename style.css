@@ -21,6 +21,7 @@ button {
     border: 0;
     font-weight: bold;
     margin-top: 10px;
+    align-self: flex-start;
 }
 
 h1 {
@@ -84,6 +85,9 @@ a,
 }
 
 .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 250px;
     width: 450px;
     color: #F9FAF8;
