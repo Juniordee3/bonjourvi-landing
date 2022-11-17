@@ -44,6 +44,7 @@ h2 {
     background-color: #1F2937;
     align-items: center;
     width: 100vw;
+    justify-content: center;
 }
 
 .header,
@@ -65,8 +66,7 @@ a,
 .footer {
     display: flex;
     align-items: center;
-    height: 75px;
-    flex: 1 0 auto;
+    height: 50px;
     font-weight: 300;
 }
 
@@ -90,6 +90,7 @@ a,
     justify-content: space-between;
     padding: 0 50px 50px;
     background-color: #1F2937;
+    margin: auto 0;
 }
 
 .hero-container {
