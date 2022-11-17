@@ -37,6 +37,13 @@ h2 {
     padding: 0;
 }
 
+.top,
+.info-container,
+.quote-container,
+.call-action {
+    min-height: 350px;
+}
+
 .top {
     display: flex;
     flex: 1;
