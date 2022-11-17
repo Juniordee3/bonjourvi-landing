@@ -6,6 +6,7 @@ body {
     justify-content: space-between;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 
 a {
@@ -78,9 +79,9 @@ a,
 
 .hero {
     display: flex;
-    flex: 1;
     justify-content: space-between;
     padding: 75px;
+    background-color: #1F2937;
 }
 
 .hero-container {
@@ -117,4 +118,5 @@ a,
 .footer {
     justify-content: center;
     align-items: center;
+    margin-top: auto;
 }
