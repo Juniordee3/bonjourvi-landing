@@ -14,13 +14,12 @@ a {
 }
 
 button {
-    border-radius: 12%;
+    border-radius: 8px;
     color: #F9FAF8;
     background-color: #3882F6;
     padding: 8px 25px;
     border: 0;
     font-weight: bold;
-    margin-top: 10px;
     align-self: flex-start;
 }
 
