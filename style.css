@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
@@ -123,7 +123,6 @@ a,
 .info-container {
     display: flex;
     flex: 1;
-
 }
 
 .information {
@@ -131,7 +130,7 @@ a,
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 500;
     color: #1F2937;
     width: 800px;
@@ -139,20 +138,21 @@ a,
 
 .images {
     display: flex;
-    gap: 30px;
+    gap: 0 30px;
+    margin: 0 auto auto;
 }
 
 .image {
-    height: 125px;
-    width: 125px;
+    height: 150px;
+    width: 150px;
     border-radius: 12px;
-    border: 2px solid #3882F6;
+    border: 5px solid #3882F6;
 }
 
 .image-container p {
     font-size: 16px;
     font-weight: 300;
-    width: 125px;
+    width: 150px;
     text-align: center;
     margin: 5px;
 }
@@ -185,6 +185,13 @@ a,
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
+}
+
+.call-action {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottom {
